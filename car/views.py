@@ -1,0 +1,9 @@
+from django.http import HttpResponse
+from django.shortcuts import render
+
+# Create your views here.
+
+def home(request):
+#     return HttpResponse("THIS IS CAR MODULE")
+      return render(request,'page2.html')
+
